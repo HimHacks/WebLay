@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Pet care</title>
+    </head>
+
+    <style>
+        .main {
+            display: grid;
+            grid-gap: 20px;
+
+            grid-template-areas: 
+            "header header"
+            "services services"
+            "dogs cats"
+            "contact contact"
+            ;
+            width: 80%;
+            font-family:'Pacifico', cursive;
+            margin: auto;
+
+        }
+
+        .box-1 {
+            grid-area: header;
+            background-image: url(https://cdn.pixabay.com/photo/2018/04/23/14/38/dog-3344414_1280.jpg);
+            background-size: cover;
+            background-position: center;
+
+            font-size: 22px;
+            padding: 30px;
+            height: 430px;
+        }
+
+        .box-2 {
+            grid-area: services;
+            color: darkslategray;
+            padding: 30px;
+
+            text-align: center;
+        }
+        
+        .box-3 {
+            grid-area: dogs;
+            border-right: 4px solid orange;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .box-4 {
+            grid-area: cats;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .box-5 {
+            grid-area: contact;
+            background-color: aquamarine;
+            padding: 15px;
+            color: rgb(4, 0, 255);
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .box-2 h1 {
+            border-bottom: 2px solid orange;
+        }
+
+        .box-2 p {
+            padding-top: 20px;
+            line-height: 35px;
+        }
+
+        .box-3 h1 {
+            color: orange;
+        }
+
+        .box-3 p {
+            padding-top: 15px;
+            font-size: 18px;
+        }
+
+        .box-4 h1 {
+            color: orange;
+        }
+
+        .box-4 p {
+            padding-top: 15px;
+            font-size: 18px;
+        }
+
+        .box-5 h1 {
+            padding: 15px;
+            color: orange;
+        }
+    </style>
+
+    <body>
+
+        <div class="main">
+
+            <div class="box-1">
+                <h1> PET'S CARE</h1>
+                <p> Your Pet, Our Responsibility</p>
+            </div>
+            <div class="box-2">
+                <h1>Our Services</h1>
+                <p>Comprehensive health checkups, grooming, boarding, nutrition planning, training, emergency care,<br>
+                    vaccinations, transportation, and pet supplies.</p>
+            </div>
+            <div class="box-3">
+                <h1>Dog Services</h1>
+                <p>Expert veterinary care, grooming, training, boarding, nutrition advice, emergency services,<br>
+                    vaccinations, and premium dog supplies.</p>
+            </div>
+            <div class="box-4">
+                <h1>Cat Services</h1>
+                <p>Specialized veterinary care, grooming, boarding, nutrition counseling, behavioral training, emergency<br>
+                    care, vaccinations, and quality cat supplies.</p>
+            </div>
+            <div class="box-5">
+                <h1>Get in Touch</h1>
+                <p>Have questions or need to schedule an appointment? Contact us today! We're here to provide the<br>
+                    best care for your pets.</p>
+                <p><b>Phone:</b> (123) 456-7890</p>
+                <p><b>Email:</b> info@petcare.com</p>
+                <p><b>Address:</b> 123 Pet Street, Petville, PA 12345</p>
+                <br>
+                <p>Follow us on social media for updates and tips:</p><br>
+                <ul>
+                    <li><b>Facebook:</b> @PetCare</li>
+                    <Li><b>Instagram:</b> @PetCare</Li>
+                    <li><b>Twitter:</b> @PetCare</li>
+                </ul>
+                <br>
+                <p>We look forward to hearing from you!</p>
+            </div>
+
+        </div>    
+
+    </body>
+</html>
